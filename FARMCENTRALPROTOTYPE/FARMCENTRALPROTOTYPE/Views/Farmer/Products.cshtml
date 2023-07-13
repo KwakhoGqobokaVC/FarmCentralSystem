@@ -1,0 +1,37 @@
+﻿@model List<FARMCENTRALPROTOTYPE.Models.Product>
+
+@{
+    ViewData["Title"] = "Farmer Details";
+}
+
+<h1>Farmer Details</h1>
+
+<p><strong>Farmer ID:</strong> @Model.First().FarmerID</p>
+
+
+
+<h2>Products</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product ID</th>
+            <th>Product Type</th>
+            <th>Product Date</th>
+            <th>Product Quantity</th>
+            <th>Product Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.ProductID</td>
+                <td>@product.ProductType</td>
+                <td>@product.ProductDate</td>
+                <td>@product.ProductQuantity</td>
+                <td>@product.ProductPrice</td>
+            </tr>
+        }
+    </tbody>
+</table>

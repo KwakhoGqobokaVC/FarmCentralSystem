@@ -1,7 +1,6 @@
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\FARMCENTRALPROTOTYPE.exe
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\appsettings.json
-C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\libman.json
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\FARMCENTRALPROTOTYPE.dll
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\FARMCENTRALPROTOTYPE.deps.json
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\FARMCENTRALPROTOTYPE.runtimeconfig.json
@@ -29,12 +28,6 @@ C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYP
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\Microsoft.DiaSymReader.dll
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\Microsoft.DotNet.Scaffolding.Shared.dll
-C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Options.dll
-C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Primitives.dll
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\Microsoft.NET.StringTools.dll
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\Microsoft.VisualStudio.Debugger.Contracts.dll
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.dll

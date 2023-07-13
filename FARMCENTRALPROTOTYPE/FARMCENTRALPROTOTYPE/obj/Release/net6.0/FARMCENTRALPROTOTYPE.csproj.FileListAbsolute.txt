@@ -251,10 +251,3 @@ C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYP
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\FARMCENTRALPROTOTYPE.pdb
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\FARMCENTRALPROTOTYPE.genruntimeconfig.cache
 C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\obj\Release\net6.0\ref\FARMCENTRALPROTOTYPE.dll
-C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\bin\Release\net6.0\libman.json
-C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\bin\Release\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\bin\Release\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\bin\Release\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\pc\Documents\3rd Year\PROG7311\FARMCENTRALPROTOTYPE\FARMCENTRALPROTOTYPE\bin\Release\net6.0\Microsoft.Extensions.Primitives.dll

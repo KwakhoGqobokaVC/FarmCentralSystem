@@ -13,7 +13,7 @@ namespace FARMCENTRALPROTOTYPE.Controllers
         private readonly string connectionString;
         public LoginController(IConfiguration configuration)
         {
-            connectionString = configuration.GetConnectionString("azureDBConnect");
+            connectionString = configuration.GetConnectionString("localDBConnect");
             dbFC = new DBFarmCentral(configuration);
         }
 

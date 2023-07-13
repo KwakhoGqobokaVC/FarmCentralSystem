@@ -14,9 +14,8 @@ namespace FARMCENTRALPROTOTYPE.Data
         public DBFarmCentral(IConfiguration configuration)
         {
             _config = configuration;
-            conString = _config.GetConnectionString("azureDBConnect");
+            conString = _config.GetConnectionString("localDBConnect");
         }
-        // Retrieve all farmers from the database
         public List<Farmer> AllFarmers()
         {
             List<Farmer> stList = new List<Farmer>();
@@ -46,7 +45,6 @@ namespace FARMCENTRALPROTOTYPE.Data
             return stList;
         }
 
-        // Retrieve all products from the database
         public List<Product> AllProducts()
         {
             List<Product> stPList = new List<Product>();
@@ -76,8 +74,6 @@ namespace FARMCENTRALPROTOTYPE.Data
             myConnection.Close();
             return stPList;
         }
-
-        // Retrieve all products of a specific farmer from the database
         public List<Product> AllFarmersProducts(string id)
         {
             List<Product> stFPList = new List<Product>();
@@ -107,8 +103,6 @@ namespace FARMCENTRALPROTOTYPE.Data
             myConnection.Close();
             return stFPList;
         }
-
-        // Retrieve a farmer with a specific ID from the database
         public Farmer GetFarmer(string id)
         {
             Farmer fr = new Farmer();
@@ -127,7 +121,6 @@ namespace FARMCENTRALPROTOTYPE.Data
 
         }
 
-        // Retrieve the farmer ID with a specific email from the database
         public string GetFarmerID(string email)
         {
             string id = "";
@@ -145,7 +138,7 @@ namespace FARMCENTRALPROTOTYPE.Data
             return id;
         }
 
-        // Retrieve a product with a specific ID from the database
+
         public Product GetFarmerProduct(string id)
         {
             Product pr = new Product();
@@ -164,7 +157,6 @@ namespace FARMCENTRALPROTOTYPE.Data
 
         }
 
-        // Retrieve a product with a specific ID from the database
         public Product GetProduct(string id)
         {
             Product pr = new Product();
@@ -183,7 +175,6 @@ namespace FARMCENTRALPROTOTYPE.Data
 
         }
 
-        // Add a new farmer to the database
         public void AddFarmer(Farmer fr)
         {
             using (SqlConnection myConnection = new SqlConnection(conString))
@@ -194,7 +185,6 @@ namespace FARMCENTRALPROTOTYPE.Data
             }
         }
 
-        // Add a new product to the database
         public void AddProduct(Product Pr)
         {
             using (SqlConnection myConnection = new SqlConnection(conString))
@@ -205,7 +195,6 @@ namespace FARMCENTRALPROTOTYPE.Data
             }
         }
 
-        // Update farmer information in the database
         public void UpdateFarmer(string id, Farmer fr)
         {
             using (SqlConnection myCon = new SqlConnection(conString))
@@ -216,8 +205,6 @@ namespace FARMCENTRALPROTOTYPE.Data
                 cmdUpdate.ExecuteNonQuery();
             }
         }
-
-        // Update product information in the database
         public void UpdateProduct(string id, Product pr)
         {
             using (SqlConnection myCon = new SqlConnection(conString))
@@ -229,7 +216,6 @@ namespace FARMCENTRALPROTOTYPE.Data
             }
         }
 
-        // Update farmer product information in the database
         public void UpdateFarmerProduct(string id, Product pr)
         {
             using (SqlConnection myCon = new SqlConnection(conString))
@@ -242,7 +228,9 @@ namespace FARMCENTRALPROTOTYPE.Data
         }
 
 
-        // Delete a farmer from the database using their ID
+
+
+
         public void DeleteFarmer(string id)
         {
             using (SqlConnection myConn = new SqlConnection(conString))
@@ -253,8 +241,6 @@ namespace FARMCENTRALPROTOTYPE.Data
 
             }
         }
-
-        // Delete a product from the database using its ID
         public void DeleteProducts(string id)
         {
             using (SqlConnection myConn = new SqlConnection(conString))
