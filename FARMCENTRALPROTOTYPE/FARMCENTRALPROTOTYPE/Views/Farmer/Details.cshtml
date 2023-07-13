@@ -1,0 +1,40 @@
+﻿@model FARMCENTRALPROTOTYPE.Models.Farmer
+
+@{
+    ViewData["Title"] = "Details";
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+}
+
+<h1> EMPLOYEE PORTAL - FARMER DETAILS</h1>
+
+<div>
+ 
+    <hr />
+    <table>
+        <tr>
+            <th>Farmer ID</th>
+            <td>@Html.DisplayFor(model => model.FarmerID)</td>
+        </tr>
+        <tr>
+            <th>Farmer Name</th>
+            <td>@Html.DisplayFor(model => model.FarmerName)</td>
+        </tr>
+        <tr>
+            <th>Farmer Surname</th>
+            <td>@Html.DisplayFor(model => model.FarmerSurname)</td>
+        </tr>
+        <tr>
+            <th>Farmer Email</th>
+            <td>@Html.DisplayFor(model => model.FarmerEmail)</td>
+        </tr>
+        <tr>
+            <th>Farmer Password</th>
+            <td>@Html.DisplayFor(model => model.FarmerPassword)</td>
+        </tr>
+    </table>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

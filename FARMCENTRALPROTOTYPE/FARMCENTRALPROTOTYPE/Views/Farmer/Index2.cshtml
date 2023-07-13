@@ -1,0 +1,73 @@
+﻿@model IEnumerable<FARMCENTRALPROTOTYPE.Models.Product>
+
+@{
+    ViewData["Title"] = "Index2";
+}
+
+<h1>EMPLOYEE PORTAL - PRODUCT LIST</h1>
+
+<p>
+
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductQuantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FarmerID)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductQuantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FarmerID)
+            </td>
+               
+            
+        </tr>
+}
+    </tbody>
+</table>
+<form method="get" action="@Url.Action("Index2")">
+    <div class="form-group">
+        <label for="productType">Product Type:</label>
+        <input type="text" id="productType" name="productType" class="form-control" value="@ViewBag.FilteredProductType" />
+    </div>
+    <div class="form-group">
+        <label for="productDate">Product Date:</label>
+        <input type="text" id="productDate" name="productDate" class="form-control" value="@ViewBag.FilteredProductDate" />
+    </div>
+    <button type="submit" class="btn btn-primary">Filter</button>
+</form>

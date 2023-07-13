@@ -1,0 +1,43 @@
+﻿@model FARMCENTRALPROTOTYPE.Models.Farmer
+
+@{
+    ViewData["Title"] = "Delete";
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+}
+
+<div class="container">
+    <h1> EMPLOYEE PORTAL - DELETE FARMER</h1>
+
+    <h3>Are you sure you want to delete this?</h3>
+    <div>
+        <hr />
+        <table>
+            <tr>
+                <th>Farmer ID</th>
+                <td>@Html.DisplayFor(model => model.FarmerID)</td>
+            </tr>
+            <tr>
+                <th>Farmer Name</th>
+                <td>@Html.DisplayFor(model => model.FarmerName)</td>
+            </tr>
+            <tr>
+                <th>Farmer Surname</th>
+                <td>@Html.DisplayFor(model => model.FarmerSurname)</td>
+            </tr>
+            <tr>
+                <th>Farmer Email</th>
+                <td>@Html.DisplayFor(model => model.FarmerEmail)</td>
+            </tr>
+            <tr>
+                <th>Farmer Password</th>
+                <td>@Html.DisplayFor(model => model.FarmerPassword)</td>
+            </tr>
+        </table>
+
+        <form asp-action="Delete">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            <a asp-action="Index">Back to List</a>
+        </form>
+    </div>
+</div>

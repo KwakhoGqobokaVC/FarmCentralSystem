@@ -1,0 +1,79 @@
+﻿@model FARMCENTRALPROTOTYPE.Models.Farmer
+
+@{
+    ViewData["Title"] = "Create";
+    <link rel="stylesheet" href="/css/styles.css" />
+}
+
+<h1>EMPLOYEE PORTAL - CREATE FARMER</h1>
+
+<h4>Farmer</h4>
+<hr />
+<div class="table-container">
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <table class="form-table">
+            <tr>
+                <td>
+                    <label asp-for="FarmerID" class="control-label"></label>
+                </td>
+                <td>
+                    <input asp-for="FarmerID" name="txtFarmerID" class="form-control" />
+                    <span asp-validation-for="FarmerID" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label asp-for="FarmerName" class="control-label"></label>
+                </td>
+                <td>
+                    <input asp-for="FarmerName" name="txtFarmerName" class="form-control" />
+                    <span asp-validation-for="FarmerName" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label asp-for="FarmerSurname" class="control-label"></label>
+                </td>
+                <td>
+                    <input asp-for="FarmerSurname" name="txtFarmerSurname" class="form-control" />
+                    <span asp-validation-for="FarmerSurname" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label asp-for="FarmerEmail" class="control-label"></label>
+                </td>
+                <td>
+                    <input asp-for="FarmerEmail" name="txtFarmerEmail" class="form-control" />
+                    <span asp-validation-for="FarmerEmail" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label asp-for="FarmerPassword" class="control-label"></label>
+                </td>
+                <td>
+                    <input asp-for="FarmerPassword" name="txtFarmerPassword" class="form-control" />
+                    <span asp-validation-for="FarmerPassword" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

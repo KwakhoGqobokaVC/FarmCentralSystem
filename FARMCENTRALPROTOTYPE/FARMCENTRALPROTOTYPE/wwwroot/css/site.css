@@ -1,0 +1,363 @@
+.login-form {
+    
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #337ab7;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #337ab7;
+}
+
+    .btn-primary:hover {
+        background: #286090;
+    }
+/* styles.css */
+
+/* Add some spacing and background color to the table */
+.table {
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    border-collapse: collapse;
+}
+
+    /* Style the table header */
+    .table th {
+        background-color: #333;
+        color: #fff;
+        padding: 8px;
+    }
+
+    /* Style alternating rows */
+    .table tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    /* Add padding and border to table cells */
+    .table td {
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+        /* Style the action links */
+        .table td a {
+            margin-right: 5px;
+            color: #337ab7;
+        }
+
+/* styles.css */
+
+/* Center the form */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+}
+
+/* Add padding to the form */
+.col-md-4 {
+    padding: 20px;
+}
+
+/* Style the form labels */
+.form-group label {
+    height: 25px;
+    font-weight: bold;
+}
+
+/* Add some spacing to the form controls */
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Style the submit button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+    .btn-primary:hover {
+        background-color: #0069d9;
+        border-color: #0062cc;
+    }
+
+/* Style the "Back to List" link */
+.back-link {
+    margin-top: 20px;
+    display: inline-block;
+    color: #007bff;
+}
+
+    .back-link:hover {
+        text-decoration: none;
+        color: #0056b3;
+    }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 1rem;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 1.5rem 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    font-weight: bold;
+    color: #555;
+}
+
+td {
+    color: #333;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+    .btn-danger:hover {
+        background-color: #c82333;
+    }
+
+.back-link {
+    margin-top: 1rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    font-weight: bold;
+}
+.form-group {
+    display: table-row;
+}
+
+    .form-group label {
+        display: table-cell;
+        font-weight: bold;
+        padding-right: 1rem;
+    }
+
+    .form-group input[type="text"] {
+        display: table-cell;
+        width: 100%;
+    }
+
+    .form-group .text-danger {
+        display: table-cell;
+        color: red;
+    }
+
+    .form-group .btn-primary {
+        margin-top: 1rem;
+    }
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-table {
+    width: 400px;
+}
+
+    .form-table td {
+        padding: 10px;
+    }
+
+    .form-table label {
+        display: block;
+        font-weight: bold;
+    }
+
+    .form-table input[type="text"],
+    .form-table input[type="password"] {
+        width: 100%;
+       
+    }
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .form-table th,
+    .form-table td {
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+    .form-table th {
+        text-align: left;
+        background-color: #f2f2f2;
+    }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.text-danger {
+    color: red;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .form-table th,
+    .form-table td {
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+    .form-table th {
+        text-align: left;
+        background-color: #f2f2f2;
+    }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.text-danger {
+    color: red;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .details-table th,
+    .details-table td {
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+    .details-table th {
+        text-align: left;
+        background-color: #f2f2f2;
+    }
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .details-table th,
+    .details-table td {
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+    .details-table th {
+        text-align: left;
+        background-color: #f2f2f2;
+    }
+
+.delete-form {
+    margin-top: 20px;
+}

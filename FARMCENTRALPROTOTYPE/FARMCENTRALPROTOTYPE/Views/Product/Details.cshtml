@@ -1,0 +1,43 @@
+﻿@model FARMCENTRALPROTOTYPE.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+    <link rel="stylesheet" href="/css/styles.css" />
+}
+
+<h1> FARMER PORTAL - PRODUCT DETAILS</h1>
+
+<div>
+    
+    <hr />
+    <table class="details-table">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ProductID)</th>
+            <td>@Html.DisplayFor(model => model.ProductID)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ProductType)</th>
+            <td>@Html.DisplayFor(model => model.ProductType)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ProductDate)</th>
+            <td>@Html.DisplayFor(model => model.ProductDate)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ProductQuantity)</th>
+            <td>@Html.DisplayFor(model => model.ProductQuantity)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ProductPrice)</th>
+            <td>@Html.DisplayFor(model => model.ProductPrice)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FarmerID)</th>
+            <td>@Html.DisplayFor(model => model.FarmerID)</td>
+        </tr>
+    </table>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

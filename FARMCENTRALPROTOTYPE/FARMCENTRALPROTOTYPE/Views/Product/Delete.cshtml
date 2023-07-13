@@ -1,0 +1,45 @@
+﻿@model FARMCENTRALPROTOTYPE.Models.Product
+
+@{
+    ViewData["Title"] = "Delete";
+    <link rel="stylesheet" href="/css/styles.css" />
+}
+
+<h1> EMPLOYEE PORTAL - DELETE PRODUCT</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Product</h4>
+    <hr />
+    <table class="details-table">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ProductID)</th>
+            <td>@Html.DisplayFor(model => model.ProductID)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ProductType)</th>
+            <td>@Html.DisplayFor(model => model.ProductType)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ProductDate)</th>
+            <td>@Html.DisplayFor(model => model.ProductDate)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ProductQuantity)</th>
+            <td>@Html.DisplayFor(model => model.ProductQuantity)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ProductPrice)</th>
+            <td>@Html.DisplayFor(model => model.ProductPrice)</td>
+        </tr>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FarmerID)</th>
+            <td>@Html.DisplayFor(model => model.FarmerID)</td>
+        </tr>
+    </table>
+
+    <form asp-action="Delete" class="delete-form">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

@@ -1,0 +1,60 @@
+﻿@model FARMCENTRALPROTOTYPE.Models.Product
+
+@{
+    ViewData["Title"] = "Edit";
+    <link rel="stylesheet" href="/css/styles.css" />
+}
+
+<h1> FARMER PORTAL - EDIT PRODUCT</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <table class="form-table">
+                <tr>
+                    <th><label asp-for="ProductID" class="control-label"></label></th>
+                    <td><input asp-for="ProductID" name="txtProductID" class="form-control" readonly /></td>
+                </tr>
+                <tr>
+                    <th><label asp-for="ProductType" class="control-label"></label></th>
+                    <td><input asp-for="ProductType" name="txtProductType" class="form-control" /></td>
+                </tr>
+                <tr>
+                    <th><label asp-for="ProductDate" class="control-label"></label></th>
+                    <td><input asp-for="ProductDate" name="txtProductDate" class="form-control" /></td>
+                </tr>
+                <tr>
+                    <th><label asp-for="ProductQuantity" class="control-label"></label></th>
+                    <td><input asp-for="ProductQuantity" name="txtProductQuantity" class="form-control" /></td>
+                </tr>
+                <tr>
+                    <th><label asp-for="ProductPrice" class="control-label"></label></th>
+                    <td><input asp-for="ProductPrice" name="txtProductPrice" class="form-control" /></td>
+                </tr>
+                <tr>
+                    <th><label asp-for="FarmerID" class="control-label"></label></th>
+                    <td><input asp-for="FarmerID" name="txtFarmerID" class="form-control" readonly /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
